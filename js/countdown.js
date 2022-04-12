@@ -27,6 +27,6 @@ let interval=setInterval(function(){
 
  if (distance < 0) {
     clearInterval(interval);
-    document.getElementById("timeContainer").innerHTML = "EXPIRED";
+    document.querySelector(".timeContainer").innerHTML = "EXPIRED";
   }
 },1000);
